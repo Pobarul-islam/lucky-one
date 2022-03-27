@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 function Card(props) {
     const { name, image, price } = props.product
 
