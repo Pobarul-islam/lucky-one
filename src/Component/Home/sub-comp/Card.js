@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../Home.css'
 
 function Card(props) {
     const { name, image, price } = props.product
