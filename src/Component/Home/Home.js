@@ -7,7 +7,7 @@ const Home = () => {
     const [products, setProducts] = useState([])
     const [carts, setCart] = useState([])
 
-    const URL = `https://raw.githubusercontent.com/mdtomiz420/json-data/main/product.json`;
+    const URL = `product.json`;
     useEffect(() => {
         fetch(URL)
             .then(res => res.json())
@@ -44,7 +44,7 @@ const Home = () => {
         <> <h1 className='text-center py-3 mt-5 fw-bold'>Online Store</h1>
             
             <h3 className='text-center mb-4'>Chose Your Favorite Device</h3>
-            
+
             <div className='container box'>
 
                 <div className='product-container'>
